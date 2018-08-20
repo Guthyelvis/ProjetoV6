@@ -1,0 +1,731 @@
+#project-sec img {
+    margin: 1px;
+    padding: 1px;
+}
+
+/*----- All -----*/
+
+body {
+    font-weight: 300;
+    font-size: 16px;
+    color: #616370;
+    background: #FFFFFF;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.section-heading {
+    font-family: "Agency FB", "Open Sans", Arial, sans-serif;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+.section-heading h1 {
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.section-heading .separator-left {
+    border-bottom: solid 3px #602c87;
+    float: left;
+}
+
+.section-heading .separator-right {
+    border-bottom: solid 3px #f19000;
+    float: right;
+}
+
+.serv-img {
+    padding: 1px;
+}
+
+.pj-img {
+    padding: 0px;
+}
+
+.team-img {
+    padding: 3px;
+}
+
+.projects {
+    background: url('../img/projects/projects_background.png') repeat-y;
+    background-position: 13vw;
+    padding-top: 150px;
+}
+
+.see-more {
+    background: url('../img/projects/projects_background.png') repeat-y;
+    background-position: 60vw;
+}
+
+.see-more a {
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+
+.see-more a:hover {
+    color: #ddd;
+}
+
+.team {
+    background: url('../img/projects/projects_background.png') repeat-y;
+    background-position: 60vw;
+    padding-top: 150px;
+}
+
+/* Id's referentes ao conteúdo da página */
+
+.section-edit #edit-text-p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+}
+
+
+.section-edit #titulo1 {
+    letter-spacing: 10%;
+    text-align: center;
+    font-size: large;
+    color: #fff;
+    font-size: 34px;
+    font-stretch: ultra-expanded;
+}
+
+
+
+.section-edit #titulo2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bolder;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+}
+
+.section-edit #t1 {
+    justify-content: center;
+    margin-bottom: -4%;
+}
+
+.section-edit #t2 {
+    justify-content: center;
+}
+
+.section-edit #t3 {
+    padding: 12% 12%;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/* Id's ao Navbar */
+
+.section-edit #container-nav {
+    display: grid;
+    justify-content: flex-end;
+}
+
+.section-edit li a:hover {
+    border-bottom: solid 2px #fff;
+}
+
+
+/* Posicionamento do conteúdo em relação a Home page*/
+
+.section-edit .containerHome {
+    display: grid;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+/* Home page e Background*/
+
+.section-edit {
+    background-image: url(../img/RecusosHD/Backgrounds/Home_Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    color: #FFFFFF;
+    height: 100vh;
+}
+
+
+
+/*----- FOO -----*/
+
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*fontes*/
+
+@font-face {
+    font-family: 'FonteTitulo';
+    src: url("../fontes/Agency FB Negrito.ttf");
+}
+
+@font-face {
+    font-family: 'FonteSubtitulo';
+    src: url("../fontes/myriad pro.otf");
+}
+
+/*----- Sobre -----*/
+
+#sobre {
+    width: 100%;
+    text-align: center;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+#sobre #sobre-logo {
+    width: 16%;
+    height: 20%;
+    margin-top: 6%;
+}
+
+#sobre h1 {
+    font-size: 160.0%;
+    color: #4D4D4D;
+    font-weight: 300;
+    margin-top: 2%;
+}
+
+#sobre p {
+    text-align: justify;
+    font-size: 157.0%;
+    color: #666666;
+    font-weight: 400;
+    margin-top: 8%;
+}
+
+
+#sobre #p-f {
+    text-align: center;
+    margin-top: -15px;
+    font-weight: 400;
+}
+
+/*----- Depoimento -----*/
+
+#depoimento {
+    margin-top: 10%;
+}
+
+#depoimento #titulo-depoimento {
+    text-align: center;
+    color: #4D4D4D;
+    font-size: 230%;
+    font-weight: 430;
+    margin-bottom: 5%;
+
+}
+
+/*----- Slide -----*/
+
+#perfil {
+    height: 450px;
+}
+
+/*----- Slide perfil -----*/
+
+#perfil {
+    text-align: center;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    color: #4D4D4D;
+}
+
+#perfil img {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 15%;
+    height: 20%px;
+}
+
+#perfil h1 {
+    font-size: 130%;
+    font-weight: 400;
+    color: #4D4D4D;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#perfil h2 {
+    font-size: 90%;
+    font-weight: 400;
+    color: #4D4D4D;
+    text-decoration: none;
+    margin-top: -10px;
+}
+
+#perfil p {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 449;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 0px;
+
+}
+
+/*----- Slide setas -----*/
+
+.carousel-control-next {
+    right: 28%;
+    top: -65%;
+}
+
+.carousel-control-prev {
+    left: 28%;
+    top: -65%;
+}
+
+.carousel-control-next-icon {
+    background: url(../img/Recursos/Botoes/Seta_Next.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25%;
+    width: 19%;
+
+}
+
+.carousel-control-prev-icon {
+    background: url(../img/Recursos/Botoes/Seta_Prev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25%;
+    width: 19%;
+}
+
+/*----- Depoimento caixa de texto -----*/
+
+#depoimento-caixa {
+    width: 100%;
+    margin-top: 4%;
+}
+
+#depoimento-caixa img {
+    height: 100px;
+    width: 100%;
+}
+
+#depoimento-caixa p {
+    color: #652580;
+    text-align: center;
+    position: relative;
+    top: -50%;
+    font-size: 130%;
+    font-weight: 650;
+}
+
+/*Contatos*/
+
+#contatos-section {
+    width: 100%;
+    float: left;
+}
+
+.title {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #4d4d4d;
+    font-family: FonteTitulo;
+    font-size: 25px;
+    border-bottom: 2px solid #b2b2b2;
+    padding: 3% 0;
+}
+
+#divform {
+    width: 95%;
+    float: left;
+    padding: 0 5%;
+    background-image: url("../img/Recursos/Backgrounds/Tracos_Longos_Background.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 40px;
+    margin-right: 5%;
+}
+
+#subtitulo {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    font-family: FonteSubtitulo;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+#formulário {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    font-family: segoe ui, san-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+#formulário input,
+textarea {
+    font-size: 16px;
+}
+
+#formulário input {
+    border: none;
+    border-bottom: 1pt solid #4d4d4d;
+}
+
+#formulário textarea {
+    border: 1pt solid #000000;
+    width: 320px;
+    height: 200px;
+}
+
+.formulário {
+    width: 100%;
+    float: left;
+}
+
+.formulário p {
+    margin-bottom: 16px;
+}
+
+.botaoEnviar {
+    float: right;
+    padding: 15px 100px;
+    font-family: segoe ui, sans-serif;
+    background-color: #e1e1e1;
+    box-shadow: 4px 4px #9a9a9a;
+    border-radius: 8px;
+    font-size: 20;
+    cursor: pointer;
+
+}
+
+/*Rodapé*/
+
+#rodape {
+    width: 100%;
+    float: left;
+    background-color: #662481;
+    padding-bottom: 30px;
+}
+
+.contatodireto {
+    width: 100%;
+    float: left;
+}
+
+#divisao1 {
+    width: 100%;
+    float: left;
+}
+
+#divisao2 {
+    width: 100%;
+    float: left;
+}
+
+.icone {
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.texto {
+    width: 65%;
+    height: 50px;
+    float: right;
+    font-family: segoe ui, san-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#titlefooter {
+    border: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 85%;
+    float: left;
+    margin-left: 15%;
+}
+
+.social-icon li {
+    float: left;
+    margin-right: 8%;
+}
+
+
+@media screen and (min-width: 480px) {
+    .title {
+        font-size: 30px;
+    }
+    #divform {
+        padding-left: 10%;
+    }
+    #subtitulo {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    #formulário {
+        font-size: 18px;
+    }
+    #formulário textarea {
+        width: 500px;
+    }
+    .formulário p {
+        margin-bottom: 25px;
+    }
+    .texto {
+        font-size: 20px;
+        width: 70%;
+    }
+    .icone {
+        width: 10%;
+        margin-left: 20%;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .title {
+        font-size: 35px;
+    }
+    #divform {
+        padding-left: 15%;
+        background-repeat: repeat-y;
+    }
+    #subtitulo {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .formulário p {
+        margin-bottom: 60px;
+    }
+    #formulário {
+        font-size: 22px;
+    }
+    #formulário textarea {
+        width: 550px;
+    }
+
+    #rodape {
+        padding-top: 20px;
+    }
+    .contatodireto {
+        width: 80%;
+    }
+    .cont-indiv {
+        padding-bottom: 70px;
+    }
+    .texto {
+        font-size: 22px;
+        width: 65%;
+        margin-left: 2%;
+    }
+    .icone {
+        width: 10%;
+        margin-left: 23%;
+    }
+    .social-icon {
+        width: 9%;
+        float: right;
+        margin-left: 0;
+        display: block;
+        top: 70px;
+        position: relative;
+        margin-right: 10%;
+        margin-bottom: 50px;
+    }
+    .social-icon li {
+        float: unset;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .title {
+        font-size: 40px;
+    }
+    #divform {
+        padding-left: 12%;
+    }
+    #subtitulo {
+        margin-top: 40px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #form1 {
+        width: 45%;
+        float: left;
+        margin-right: 5%;
+    }
+    #form2 {
+        width: 40%;
+        float: left;
+    }
+    .formulário p {
+        margin-bottom: 60px;
+    }
+    #formulário {
+        font-size: 25px;
+    }
+    #formulário textarea {
+        width: 530px;
+        height: 250px;
+    }
+
+    .contatodireto {
+        width: 90%;
+    }
+    .cont-indiv {
+        padding-bottom: 100px;
+    }
+    .social-icon {
+        width: 9%;
+        margin-right: 0;
+    }
+    #divisao1 {
+        width: 45%;
+        float: left;
+    }
+    #divisao2 {
+        width: 45%;
+        float: left;
+    }
+    .texto {
+        font-size: 24px;
+        width: 65%;
+    }
+    .icone {
+        width: 10%;
+    }
+    .social-icon li {
+        margin-bottom: 25px;
+    }
+    #titlefooter {
+        margin-bottom: 30px;
+
+    }
+
+
+
+    /*----- FUNCTION - Perfil -----*/
+    @media (max-width: 1000px) {
+        #perfil {
+            height: 450px;
+
+        }
+
+        #perfil h1 {
+            font-size: 100%;
+            font-weight: 400;
+            color: #4D4D4D;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        #perfil h2 {
+            font-size: 60%;
+            font-weight: 400;
+            color: #4D4D4D;
+            text-decoration: none;
+            margin-top: -10px;
+        }
+        #perfil p {
+            text-align: center;
+            font-size: 90%;
+            font-weight: 449;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 3%;
+
+        }
+    }
+
+    /*----- FUNCTION - Sobre -----*/
+    @media (max-width: 800px) {
+        #sobre #sobre-logo {
+            width: 25%;
+            height: 20%;
+            margin-top: 6%;
+        }
+        #sobre h1 {
+            font-size: 110.0%;
+            color: #4D4D4D;
+            font-weight: 300;
+            margin-top: 2%;
+        }
+
+        #sobre p {
+            text-align: justify;
+            font-size: 100.0%;
+            color: #666666;
+            font-weight: 400;
+            margin-top: 8%;
+        }
+    }
+
+    /*----- FUNCTION - Depoimento -----*/
+    @media (max-width: 800px) {
+        #depoimento #titulo-depoimento {
+            text-align: center;
+            color: #4D4D4D;
+            font-size: 130%;
+            font-weight: 430;
+            margin-bottom: 5%;
+
+        }
+    }
+
+    /*----- FUNCTION - Setas -----*/
+    @media (max-width: 1000px) {
+        .carousel-control-next {
+            right: 28%;
+            top: -80%;
+        }
+
+        .carousel-control-prev {
+            left: 28%;
+            top: -80%;
+        }
+        #depoimento-caixa {
+            width: 100%;
+            margin-top: -10%;
+        }
+
+    }
